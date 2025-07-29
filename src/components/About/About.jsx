@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css"; // Assuming you have a CSS file for additional styles
+import "./about.css"; // Assuming you have a CSS file for additional styles
 export default function About() {
   return (
     <div className="text-white min-h-screen w-screen flex flex-col items-center justify-center">

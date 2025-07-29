@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./Navbar.css"; 
+import "./navbar.css"; 
 export default function Navbar() {
   return (
     <div className="w-screen nav-outer text-white flex items-center font-normal bg-black justify-center">

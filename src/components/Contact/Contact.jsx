@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import emailjs from "@emailjs/browser";
 import { toast, ToastContainer } from "react-toastify";
-import "./Contact.css";
+import "./contact.css";
 export default function Contact() {
   const form = useRef();
   const [issending, setissending] = useState(false);
