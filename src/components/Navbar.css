@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+  .nav-outer li {
+    font-size: smaller;
+  }
+  .nav-outer-2 {
+    width: 100%;
+  }
+  .connect button {
+    font-size: smaller;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+}
+@media (min-width: 500px) {
+  .menu {
+    display: none;
+  }
+}
+@media (max-width: 535px) {
+  .nav-outer-2 {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .connect {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 160%;
+  }
+  .connect button {
+    font-size: x-small;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  .image {
+    width: 20%;
+  }
+  .nav-outer li {
+    display: none;
+  }
+  .nav-outer-2 .connect button {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu {
+    display: block;
+  }
+}

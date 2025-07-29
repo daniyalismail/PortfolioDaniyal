@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  hr{
+    width: 95%;
+  }
+  .logo{
+    width: 20%;
+  }
+    .bt-ft{
+    flex-direction: column;
+    width: 95%;
+    font-size: small;
+  }
+}

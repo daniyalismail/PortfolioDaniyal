@@ -1,0 +1,19 @@
+.gradient-text {
+  background: linear-gradient(to right, #06b6d4, #3b82f6); /* cyan-500 to blue-500 */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width:500px){
+.profilepic{
+width:40%;
+}
+.heading{
+  width: 95%;
+  font-size: xx-large;
+}
+.button-box {
+flex-wrap: wrap;
+justify-content: center;
+}
+}

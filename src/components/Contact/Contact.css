@@ -1,0 +1,13 @@
+@media (max-width: 750px) {
+  .contact-outer {
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact-inner-1 {
+    width: 95%;
+    align-items: center;
+  }
+  .form{
+    width: 95%;
+  }
+}

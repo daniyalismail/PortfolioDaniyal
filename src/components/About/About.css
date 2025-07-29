@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .about-outer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-pic {
+    width: 50%;
+  }
+  .desc{
+    text-align: center;
+    width: 95%;
+  }
+}
