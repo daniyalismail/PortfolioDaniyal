@@ -3,7 +3,7 @@ import './App.css'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
-import Hero from './components/Home'
+import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects/Projects'
 
@@ -12,7 +12,7 @@ function App() {
     <>
      <Navbar/>
      <Routes>
-      <Route path='/' element={<Hero/>}/>
+      <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/projects' element={<Projects/>}/>
       <Route path='/contact' element={<Contact/>}/>
