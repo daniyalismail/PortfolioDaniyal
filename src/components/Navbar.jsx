@@ -8,7 +8,7 @@ export default function Navbar() {
     <div className="w-screen nav-outer text-white flex items-center font-normal bg-black justify-center">
       <div className="nav-outer-2 flex w-[90%] items-center justify-between p-3">
         <div className="image w-[6%] ">
-          <img src="src/Images/logo3.png" alt="Logo" />
+          <img src="/logo3.png" alt="Logo" />
         </div>
         <ul className="flex justify-between text-xl w-[60%]">
           <li className="">

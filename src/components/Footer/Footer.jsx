@@ -1,11 +1,11 @@
 import React from "react";
-import "./Fotter.css";
+import "./Footer.css";
 export default function Footer() {
   return (
     <div className="text-white w-screen flex flex-col justify-center items-center bg-black p-6 mt-10">
       <div className="w-[90%] flex flex-col justify-center">
         <div className="w-[10%] logo">
-          <img src="src\Images\logo3.png" alt="Logo" />
+          <img src="/logo3.png" alt="Logo" />
         </div>
         <p className=" desc w-[50%] mt-2">
           I am a passionate Computer Science student at Dawood University of

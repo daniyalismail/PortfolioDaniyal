@@ -19,7 +19,7 @@ export default function Home() {
     <div className="bg-black overflow-x-hidden text-white flex flex-col items-center justify-center">
       <div className="profilepic bg-white mt-4 w-[15%] h-[35%] rounded-full overflow-hidden">
         <img
-          src="src\Images\Profilepic.png"
+          src="/Profilepic.png"
           className="w-full h-full object-cover"
         />
       </div>

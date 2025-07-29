@@ -7,7 +7,7 @@ export default function About() {
       <div className=" about-outer flex w-[90%] gap-6 mt-4 justify-center">
       <div className=" profile-pic bg-white mt-4 w-[20%] h-[35%] rounded-full overflow-hidden">
         <img
-          src="src\Images\Profilepic.png"
+          src="/Profilepic.png"
           className="w-full h-full object-cover"
         />
       </div>
