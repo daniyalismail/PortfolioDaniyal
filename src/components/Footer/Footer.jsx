@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+import "./Footer.css";
 export default function Footer() {
   return (
     <div className="text-white w-screen flex flex-col justify-center items-center bg-black p-6 mt-10">
