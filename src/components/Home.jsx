@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../components/home.css";
+import "../components/Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 export default function Home() {
