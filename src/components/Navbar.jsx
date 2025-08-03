@@ -30,22 +30,30 @@ export default function Navbar() {
         </div>
 
         <ul className="flex justify-between text-xl w-[60%]">
-          {["Home", "About Me", "Contact", "Projects"].map((text, i) => (
-            <li key={i}>
-              <NavLink
-                to={`/${text.toLowerCase().replace(" ", "")}`}
-                className={({ isActive }) =>
-                  `transition-all duration-300 delay-150 ease-in-out border-b-2 border-transparent hover:border-b-4 hover:border-white hover:-translate-y-1 hover:scale-110 cursor-pointer ${
-                    isActive
-                      ? "bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text"
-                      : ""
-                  }`
-                }
-              >
-                {text}
-              </NavLink>
-            </li>
-          ))}
+          <li>
+            <NavLink to="/" className={({ isActive }) =>
+              `${isActive ? "bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text" : "text-white"}
+              transition-all duration-300 ease-in-out`
+            }>Home</NavLink>
+          </li>
+          <li>
+            <NavLink to="/about" className={({ isActive }) =>
+              `${isActive ? "bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text" : "text-white"}
+              transition-all duration-300 ease-in-out`
+            }>About Me</NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact" className={({ isActive }) =>
+              `${isActive ? "bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text" : "text-white"}
+              transition-all duration-300 ease-in-out`
+            }>Contact</NavLink>
+          </li>
+          <li>
+            <NavLink to="/projects" className={({ isActive }) =>
+              `${isActive ? "bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text" : "text-white"}
+              transition-all duration-300 ease-in-out`
+            }>Projects</NavLink>
+          </li>
         </ul>
 
         <div
