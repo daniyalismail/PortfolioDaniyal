@@ -19,19 +19,18 @@ export default function Projects() {
     return () => window.removeEventListener("resize", updateItemsPerPage);
   }, []);
 
-  useEffect(() => {
-    const fetchProfile = async () => {
-      const response = await fetch("https://api.github.com/user/repos", {
-        headers: {
-          Authorization: `Bearer ${GITHUB_TOKEN}`,
-          Accept: "application/vnd.github+json",
-        },
-      });
-      const data = await response.json();
-      setProfile(data);
-    };
-    fetchProfile();
-  }, []);
+useEffect(() => {
+  const fetchProfile = async () => {
+    const response = await fetch(
+      "https://api.github.com/users/daniyalismail/repos"
+    );
+    const data = await response.json();
+    setProfile(data);
+  };
+
+  fetchProfile();
+}, []);
+
 
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
@@ -47,7 +46,7 @@ export default function Projects() {
 
       {/* Projects Display */}
       <div className="flex w-[90%] justify-center flex-wrap gap-4">
-        {currentProjects.map((project) => (
+        {currentProjects?.map((project) => (
           <div
             key={project.id}
             className="border-white text-wrap border-2 w-[20%] min-w-[250px] inline-flex p-4 flex-col justify-between gap-4"
@@ -55,7 +54,7 @@ export default function Projects() {
             <h2 className="break-words w-full uppercase bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text">
               {project.name}
             </h2>
-            <p className="line-clamp-2">{project.description}</p>
+            <p className="line-clamp-2">{project?.description}</p>
             <a
               href={project.html_url}
               target="_blank"

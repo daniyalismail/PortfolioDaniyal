@@ -29,13 +29,7 @@ export default function Home() {
           Science Undergrad
         </h1>
         <p className=" desc w-[80%] text-sm mt-4">
-          I am a passionate Computer Science student at Dawood University of
-          Engineering and Technology, currently in my 5th semester. With a
-          strong foundation in Html, Css, Java, C++, Python,
-          Javascript,React.js,Next.js, MongoDB and MySQL. I enjoy solving
-          complex problems and building innovative solutions. Eager to learn and
-          grow, I&apos;m actively seeking opportunities to apply my skills and
-          contribute to impactful projects.
+          I am a Computer Science student at Dawood University of Engineering and Technology with a strong interest in full-stack web development and scalable software systems.My technical expertise includes JavaScript, React.js, Next.js,Laravel, Python, MySQL, and MongoDB, and I enjoy building responsive and efficient web applications.
         </p>
       </div>
       <div className=" button-box flex font-light gap-4 mt-6 mb-4">

@@ -13,13 +13,19 @@ export default function About() {
       </div>
       <div className="desc w-[70%] text-sm">
         <p>
-          I am a 4th-year Computer Science student at Dawood University
-          specializing in full-stack development &#40;JavaScript, Python,
-          Next.js&#41; and database systems &#40;MySQL/MongoDB&#41;. Certified
-          in AI/Web3 technologies through Governor Sindh Initiative. Passionate
-          about building scalable solutions for emerging tech domains. Proven
-          problem-solver through hackathon participation and practical project
-          experience.
+         My technical expertise includes JavaScript, React.js, Next.js, Python, MySQL, and MongoDB, and I enjoy building responsive and efficient web applications.
+
+Recently, I completed a Full Stack Developer Internship at Go Enterprise, where I:
+
+Converted Figma designs into responsive web interfaces
+
+Contributed to frontend improvements and UI optimization
+
+Built backend foundations using PHP
+
+Identified and resolved multiple software bugs
+
+I am passionate about problem-solving, hackathons, and emerging technologies like AI and Web3, and I aim to build innovative products that create real-world impact.
         </p>
         <div className="mt-8">
           <ul className="flex flex-col justify-center" >
