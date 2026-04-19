@@ -13,7 +13,7 @@ export default function About() {
       </div>
       <div className="desc w-[70%] text-sm">
         <p>
-         My technical expertise includes JavaScript, React.js, Next.js, Python, MySQL, and MongoDB, and I enjoy building responsive and efficient web applications.
+         My technical expertise includes JavaScript, React.js, Laravel, Next.js, Nodejs ,Python, MySQL, and MongoDB, and I enjoy building responsive and efficient web applications.
 
 Recently, I completed a Full Stack Developer Internship at Go Enterprise, where I:
 
@@ -46,8 +46,16 @@ I am passionate about problem-solving, hackathons, and emerging technologies lik
               <div className="w-[65%] h-3 mt-1 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500"></div>
             </div>
             <div className="flex mb-2 font-semibold items-center gap-4">
-              <li>Html & Css</li>
+              <li>Laravel</li>
+              <div className="w-[95%] h-3 mt-1 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+            </div>
+            <div className="flex mb-2 font-semibold items-center gap-4">
+              <li>MongoDB</li>
               <div className="w-[75%] h-3 mt-1 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+            </div>
+            <div className="flex mb-2 font-semibold items-center gap-4">
+              <li>NodeJS</li>
+              <div className="w-[70%] h-3 mt-1 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500"></div>
             </div>
           </ul>
         </div>
